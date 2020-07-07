@@ -1,0 +1,4 @@
+ninja: Entering directory `/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/arm64-v8a'
+[1/3] Building CXX object CMakeFiles/audioEngine.dir/jni_bridge.cpp.o
+[2/3] Building CXX object CMakeFiles/audioEngine.dir/AudioEngine.cpp.o
+[3/3] Linking CXX shared library /Users/zia/Desktop/0720/oboe_recorder/app/build/intermediates/cmake/debug/obj/arm64-v8a/libaudioEngine.so

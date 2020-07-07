@@ -1,0 +1,21 @@
+Executable : /Users/zia/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake
+arguments : 
+-H/Users/zia/Desktop/0720/oboe_recorder/app/src/main/cpp
+-DCMAKE_FIND_ROOT_PATH=/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/prefab/x86_64/prefab
+-DCMAKE_BUILD_TYPE=Debug
+-DCMAKE_TOOLCHAIN_FILE=/Users/zia/Library/Android/sdk/ndk/21.0.6113669/build/cmake/android.toolchain.cmake
+-DANDROID_ABI=x86_64
+-DANDROID_NDK=/Users/zia/Library/Android/sdk/ndk/21.0.6113669
+-DANDROID_PLATFORM=android-16
+-DCMAKE_ANDROID_ARCH_ABI=x86_64
+-DCMAKE_ANDROID_NDK=/Users/zia/Library/Android/sdk/ndk/21.0.6113669
+-DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Users/zia/Desktop/0720/oboe_recorder/app/build/intermediates/cmake/debug/obj/x86_64
+-DCMAKE_MAKE_PROGRAM=/Users/zia/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja
+-DCMAKE_SYSTEM_NAME=Android
+-DCMAKE_SYSTEM_VERSION=16
+-B/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/x86_64
+-GNinja
+jvmArgs : 
+
+Build command args:

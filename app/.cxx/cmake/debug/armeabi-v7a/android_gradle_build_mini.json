@@ -1,0 +1,439 @@
+{
+  "buildFiles": [
+    "/Users/zia/Desktop/0720/oboe_recorder/libsndfile/cmake/FindSQLite3.cmake",
+    "/Users/zia/Desktop/0720/oboe_recorder/libsndfile/src/sndfile.h.in",
+    "/Users/zia/Desktop/0720/oboe_recorder/libsndfile/CMakeLists.txt",
+    "/Users/zia/Desktop/0720/oboe_recorder/libsndfile/cmake/ClipMode.cmake",
+    "/Users/zia/Desktop/0720/oboe_recorder/libsndfile/cmake/FindSpeex.cmake",
+    "/Users/zia/Desktop/0720/oboe_recorder/libsndfile/cmake/TestLargeFiles.cmake",
+    "/Users/zia/Desktop/0720/oboe_recorder/libsndfile/cmake/FindVorbis.cmake",
+    "/Users/zia/Desktop/0720/oboe_recorder/libsndfile/cmake/FindVorbisEnc.cmake",
+    "/Users/zia/Desktop/0720/oboe_recorder/libsndfile/cmake/TestInline.cmake",
+    "/Users/zia/Desktop/0720/oboe_recorder/app/src/main/cpp/CMakeLists.txt",
+    "/Users/zia/Desktop/0720/oboe_recorder/libsndfile/cmake/FindFLAC.cmake",
+    "/Users/zia/Desktop/0720/oboe_recorder/libsndfile/doc/libsndfile.css.in",
+    "/Users/zia/Desktop/0720/oboe_recorder/libsndfile/src/config.h.cmake",
+    "/Users/zia/Desktop/0720/oboe_recorder/libsndfile/cmake/FindOpus.cmake",
+    "/Users/zia/Desktop/0720/oboe_recorder/libsndfile/cmake/CMakeAutoGen.cmake",
+    "/Users/zia/Desktop/0720/oboe_recorder/libsndfile/cmake/SndFileChecks.cmake",
+    "/Users/zia/Desktop/0720/oboe_recorder/libsndfile/cmake/FindOgg.cmake",
+    "/Users/zia/Library/Android/sdk/ndk/21.0.6113669/build/cmake/android.toolchain.cmake",
+    "/Users/zia/Library/Android/sdk/ndk/21.0.6113669/build/cmake/platforms.cmake",
+    "/Users/zia/Desktop/0720/oboe_recorder/oboe/CMakeLists.txt",
+    "/Users/zia/Desktop/0720/oboe_recorder/libsndfile/cmake/TestInline.c.in",
+    "/Users/zia/Desktop/0720/oboe_recorder/libsndfile/sndfile.pc.in",
+    "/Users/zia/Desktop/0720/oboe_recorder/libsndfile/cmake/FindSndio.cmake"
+  ],
+  "cleanCommands": [
+    "/Users/zia/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a\" clean"
+  ],
+  "buildTargetsCommand": "/Users/zia/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "raw_test-Debug-armeabi-v7a": {
+      "artifactName": "raw_test",
+      "buildCommand": "/Users/zia/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a\" raw_test",
+      "abi": "armeabi-v7a",
+      "output": "/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a/sndfile/raw_test",
+      "runtimeFiles": []
+    },
+    "ulaw_test-Debug-armeabi-v7a": {
+      "artifactName": "ulaw_test",
+      "buildCommand": "/Users/zia/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a\" ulaw_test",
+      "abi": "armeabi-v7a",
+      "output": "/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a/sndfile/ulaw_test",
+      "runtimeFiles": []
+    },
+    "stdout_test-Debug-armeabi-v7a": {
+      "artifactName": "stdout_test",
+      "buildCommand": "/Users/zia/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a\" stdout_test",
+      "abi": "armeabi-v7a",
+      "output": "/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a/sndfile/tests/stdout_test",
+      "runtimeFiles": []
+    },
+    "g72x_test-Debug-armeabi-v7a": {
+      "artifactName": "g72x_test",
+      "buildCommand": "/Users/zia/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a\" g72x_test",
+      "abi": "armeabi-v7a",
+      "output": "/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a/sndfile/g72x_test",
+      "runtimeFiles": []
+    },
+    "ogg_opus_test-Debug-armeabi-v7a": {
+      "artifactName": "ogg_opus_test",
+      "buildCommand": "/Users/zia/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a\" ogg_opus_test",
+      "abi": "armeabi-v7a",
+      "output": "/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a/sndfile/ogg_opus_test",
+      "runtimeFiles": []
+    },
+    "sndfile-deinterleave-Debug-armeabi-v7a": {
+      "artifactName": "sndfile-deinterleave",
+      "buildCommand": "/Users/zia/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a\" sndfile-deinterleave",
+      "abi": "armeabi-v7a",
+      "output": "/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a/sndfile/sndfile-deinterleave",
+      "runtimeFiles": []
+    },
+    "string_test-Debug-armeabi-v7a": {
+      "artifactName": "string_test",
+      "buildCommand": "/Users/zia/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a\" string_test",
+      "abi": "armeabi-v7a",
+      "output": "/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a/sndfile/string_test",
+      "runtimeFiles": []
+    },
+    "sndfile-info-Debug-armeabi-v7a": {
+      "artifactName": "sndfile-info",
+      "buildCommand": "/Users/zia/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a\" sndfile-info",
+      "abi": "armeabi-v7a",
+      "output": "/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a/sndfile/sndfile-info",
+      "runtimeFiles": []
+    },
+    "format_check_test-Debug-armeabi-v7a": {
+      "artifactName": "format_check_test",
+      "buildCommand": "/Users/zia/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a\" format_check_test",
+      "abi": "armeabi-v7a",
+      "output": "/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a/sndfile/format_check_test",
+      "runtimeFiles": []
+    },
+    "checksum_test-Debug-armeabi-v7a": {
+      "artifactName": "checksum_test",
+      "buildCommand": "/Users/zia/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a\" checksum_test",
+      "abi": "armeabi-v7a",
+      "output": "/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a/sndfile/checksum_test",
+      "runtimeFiles": []
+    },
+    "pcm_test-Debug-armeabi-v7a": {
+      "artifactName": "pcm_test",
+      "buildCommand": "/Users/zia/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a\" pcm_test",
+      "abi": "armeabi-v7a",
+      "output": "/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a/sndfile/pcm_test",
+      "runtimeFiles": []
+    },
+    "write_read_test-Debug-armeabi-v7a": {
+      "artifactName": "write_read_test",
+      "buildCommand": "/Users/zia/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a\" write_read_test",
+      "abi": "armeabi-v7a",
+      "output": "/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a/sndfile/write_read_test",
+      "runtimeFiles": []
+    },
+    "cpp_test-Debug-armeabi-v7a": {
+      "artifactName": "cpp_test",
+      "buildCommand": "/Users/zia/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a\" cpp_test",
+      "abi": "armeabi-v7a",
+      "output": "/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a/sndfile/cpp_test",
+      "runtimeFiles": []
+    },
+    "header_test-Debug-armeabi-v7a": {
+      "artifactName": "header_test",
+      "buildCommand": "/Users/zia/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a\" header_test",
+      "abi": "armeabi-v7a",
+      "output": "/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a/sndfile/header_test",
+      "runtimeFiles": []
+    },
+    "test_main-Debug-armeabi-v7a": {
+      "artifactName": "test_main",
+      "buildCommand": "/Users/zia/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a\" test_main",
+      "abi": "armeabi-v7a",
+      "output": "/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a/sndfile/test_main",
+      "runtimeFiles": []
+    },
+    "sndfile-loopify-Debug-armeabi-v7a": {
+      "artifactName": "sndfile-loopify",
+      "buildCommand": "/Users/zia/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a\" sndfile-loopify",
+      "abi": "armeabi-v7a",
+      "output": "/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a/sndfile/sndfile-loopify",
+      "runtimeFiles": []
+    },
+    "list_formats-Debug-armeabi-v7a": {
+      "artifactName": "list_formats",
+      "buildCommand": "/Users/zia/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a\" list_formats",
+      "abi": "armeabi-v7a",
+      "output": "/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a/sndfile/list_formats",
+      "runtimeFiles": []
+    },
+    "aiff_rw_test-Debug-armeabi-v7a": {
+      "artifactName": "aiff_rw_test",
+      "buildCommand": "/Users/zia/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a\" aiff_rw_test",
+      "abi": "armeabi-v7a",
+      "output": "/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a/sndfile/aiff_rw_test",
+      "runtimeFiles": []
+    },
+    "peak_chunk_test-Debug-armeabi-v7a": {
+      "artifactName": "peak_chunk_test",
+      "buildCommand": "/Users/zia/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a\" peak_chunk_test",
+      "abi": "armeabi-v7a",
+      "output": "/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a/sndfile/peak_chunk_test",
+      "runtimeFiles": []
+    },
+    "sndfile-play-Debug-armeabi-v7a": {
+      "artifactName": "sndfile-play",
+      "buildCommand": "/Users/zia/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a\" sndfile-play",
+      "abi": "armeabi-v7a",
+      "output": "/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a/sndfile/sndfile-play",
+      "runtimeFiles": []
+    },
+    "sndfile-salvage-Debug-armeabi-v7a": {
+      "artifactName": "sndfile-salvage",
+      "buildCommand": "/Users/zia/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a\" sndfile-salvage",
+      "abi": "armeabi-v7a",
+      "output": "/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a/sndfile/sndfile-salvage",
+      "runtimeFiles": []
+    },
+    "sndfile-metadata-get-Debug-armeabi-v7a": {
+      "artifactName": "sndfile-metadata-get",
+      "buildCommand": "/Users/zia/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a\" sndfile-metadata-get",
+      "abi": "armeabi-v7a",
+      "output": "/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a/sndfile/sndfile-metadata-get",
+      "runtimeFiles": []
+    },
+    "lossy_comp_test-Debug-armeabi-v7a": {
+      "artifactName": "lossy_comp_test",
+      "buildCommand": "/Users/zia/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a\" lossy_comp_test",
+      "abi": "armeabi-v7a",
+      "output": "/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a/sndfile/lossy_comp_test",
+      "runtimeFiles": []
+    },
+    "oboe-Debug-armeabi-v7a": {
+      "artifactName": "oboe",
+      "buildCommand": "/Users/zia/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a\" oboe",
+      "abi": "armeabi-v7a",
+      "output": "/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a/oboe/liboboe.a",
+      "runtimeFiles": []
+    },
+    "sfversion-Debug-armeabi-v7a": {
+      "artifactName": "sfversion",
+      "buildCommand": "/Users/zia/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a\" sfversion",
+      "abi": "armeabi-v7a",
+      "output": "/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a/sndfile/sfversion",
+      "runtimeFiles": []
+    },
+    "alaw_test-Debug-armeabi-v7a": {
+      "artifactName": "alaw_test",
+      "buildCommand": "/Users/zia/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a\" alaw_test",
+      "abi": "armeabi-v7a",
+      "output": "/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a/sndfile/alaw_test",
+      "runtimeFiles": []
+    },
+    "sndfile-cmp-Debug-armeabi-v7a": {
+      "artifactName": "sndfile-cmp",
+      "buildCommand": "/Users/zia/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a\" sndfile-cmp",
+      "abi": "armeabi-v7a",
+      "output": "/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a/sndfile/sndfile-cmp",
+      "runtimeFiles": []
+    },
+    "multi_file_test-Debug-armeabi-v7a": {
+      "artifactName": "multi_file_test",
+      "buildCommand": "/Users/zia/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a\" multi_file_test",
+      "abi": "armeabi-v7a",
+      "output": "/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a/sndfile/multi_file_test",
+      "runtimeFiles": []
+    },
+    "sndfile-interleave-Debug-armeabi-v7a": {
+      "artifactName": "sndfile-interleave",
+      "buildCommand": "/Users/zia/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a\" sndfile-interleave",
+      "abi": "armeabi-v7a",
+      "output": "/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a/sndfile/sndfile-interleave",
+      "runtimeFiles": []
+    },
+    "ogg_test-Debug-armeabi-v7a": {
+      "artifactName": "ogg_test",
+      "buildCommand": "/Users/zia/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a\" ogg_test",
+      "abi": "armeabi-v7a",
+      "output": "/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a/sndfile/ogg_test",
+      "runtimeFiles": []
+    },
+    "headerless_test-Debug-armeabi-v7a": {
+      "artifactName": "headerless_test",
+      "buildCommand": "/Users/zia/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a\" headerless_test",
+      "abi": "armeabi-v7a",
+      "output": "/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a/sndfile/headerless_test",
+      "runtimeFiles": []
+    },
+    "virtual_io_test-Debug-armeabi-v7a": {
+      "artifactName": "virtual_io_test",
+      "buildCommand": "/Users/zia/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a\" virtual_io_test",
+      "abi": "armeabi-v7a",
+      "output": "/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a/sndfile/virtual_io_test",
+      "runtimeFiles": []
+    },
+    "audioEngine-Debug-armeabi-v7a": {
+      "artifactName": "audioEngine",
+      "buildCommand": "/Users/zia/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a\" audioEngine",
+      "abi": "armeabi-v7a",
+      "output": "/Users/zia/Desktop/0720/oboe_recorder/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libaudioEngine.so",
+      "runtimeFiles": []
+    },
+    "stdio_test-Debug-armeabi-v7a": {
+      "artifactName": "stdio_test",
+      "buildCommand": "/Users/zia/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a\" stdio_test",
+      "abi": "armeabi-v7a",
+      "output": "/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a/sndfile/stdio_test",
+      "runtimeFiles": []
+    },
+    "dwvw_test-Debug-armeabi-v7a": {
+      "artifactName": "dwvw_test",
+      "buildCommand": "/Users/zia/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a\" dwvw_test",
+      "abi": "armeabi-v7a",
+      "output": "/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a/sndfile/dwvw_test",
+      "runtimeFiles": []
+    },
+    "rdwr_test-Debug-armeabi-v7a": {
+      "artifactName": "rdwr_test",
+      "buildCommand": "/Users/zia/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a\" rdwr_test",
+      "abi": "armeabi-v7a",
+      "output": "/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a/sndfile/rdwr_test",
+      "runtimeFiles": []
+    },
+    "long_read_write_test-Debug-armeabi-v7a": {
+      "artifactName": "long_read_write_test",
+      "buildCommand": "/Users/zia/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a\" long_read_write_test",
+      "abi": "armeabi-v7a",
+      "output": "/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a/sndfile/long_read_write_test",
+      "runtimeFiles": []
+    },
+    "make_sine-Debug-armeabi-v7a": {
+      "artifactName": "make_sine",
+      "buildCommand": "/Users/zia/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a\" make_sine",
+      "abi": "armeabi-v7a",
+      "output": "/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a/sndfile/make_sine",
+      "runtimeFiles": []
+    },
+    "chunk_test-Debug-armeabi-v7a": {
+      "artifactName": "chunk_test",
+      "buildCommand": "/Users/zia/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a\" chunk_test",
+      "abi": "armeabi-v7a",
+      "output": "/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a/sndfile/chunk_test",
+      "runtimeFiles": []
+    },
+    "compression_size_test-Debug-armeabi-v7a": {
+      "artifactName": "compression_size_test",
+      "buildCommand": "/Users/zia/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a\" compression_size_test",
+      "abi": "armeabi-v7a",
+      "output": "/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a/sndfile/compression_size_test",
+      "runtimeFiles": []
+    },
+    "external_libs_test-Debug-armeabi-v7a": {
+      "artifactName": "external_libs_test",
+      "buildCommand": "/Users/zia/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a\" external_libs_test",
+      "abi": "armeabi-v7a",
+      "output": "/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a/sndfile/external_libs_test",
+      "runtimeFiles": []
+    },
+    "sndfile-concat-Debug-armeabi-v7a": {
+      "artifactName": "sndfile-concat",
+      "buildCommand": "/Users/zia/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a\" sndfile-concat",
+      "abi": "armeabi-v7a",
+      "output": "/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a/sndfile/sndfile-concat",
+      "runtimeFiles": []
+    },
+    "sfprocess-Debug-armeabi-v7a": {
+      "artifactName": "sfprocess",
+      "buildCommand": "/Users/zia/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a\" sfprocess",
+      "abi": "armeabi-v7a",
+      "output": "/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a/sndfile/sfprocess",
+      "runtimeFiles": []
+    },
+    "test_utils-Debug-armeabi-v7a": {
+      "artifactName": "test_utils",
+      "buildCommand": "/Users/zia/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a\" test_utils",
+      "abi": "armeabi-v7a",
+      "output": "/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a/sndfile/libtest_utils.a",
+      "runtimeFiles": []
+    },
+    "pipe_test-Debug-armeabi-v7a": {
+      "artifactName": "pipe_test",
+      "buildCommand": "/Users/zia/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a\" pipe_test",
+      "abi": "armeabi-v7a",
+      "output": "/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a/sndfile/pipe_test",
+      "runtimeFiles": []
+    },
+    "misc_test-Debug-armeabi-v7a": {
+      "artifactName": "misc_test",
+      "buildCommand": "/Users/zia/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a\" misc_test",
+      "abi": "armeabi-v7a",
+      "output": "/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a/sndfile/misc_test",
+      "runtimeFiles": []
+    },
+    "sndfile-convert-Debug-armeabi-v7a": {
+      "artifactName": "sndfile-convert",
+      "buildCommand": "/Users/zia/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a\" sndfile-convert",
+      "abi": "armeabi-v7a",
+      "output": "/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a/sndfile/sndfile-convert",
+      "runtimeFiles": []
+    },
+    "error_test-Debug-armeabi-v7a": {
+      "artifactName": "error_test",
+      "buildCommand": "/Users/zia/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a\" error_test",
+      "abi": "armeabi-v7a",
+      "output": "/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a/sndfile/error_test",
+      "runtimeFiles": []
+    },
+    "locale_test-Debug-armeabi-v7a": {
+      "artifactName": "locale_test",
+      "buildCommand": "/Users/zia/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a\" locale_test",
+      "abi": "armeabi-v7a",
+      "output": "/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a/sndfile/locale_test",
+      "runtimeFiles": []
+    },
+    "sndfilehandle-Debug-armeabi-v7a": {
+      "artifactName": "sndfilehandle",
+      "buildCommand": "/Users/zia/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a\" sndfilehandle",
+      "abi": "armeabi-v7a",
+      "output": "/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a/sndfile/sndfilehandle",
+      "runtimeFiles": []
+    },
+    "scale_clip_test-Debug-armeabi-v7a": {
+      "artifactName": "scale_clip_test",
+      "buildCommand": "/Users/zia/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a\" scale_clip_test",
+      "abi": "armeabi-v7a",
+      "output": "/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a/sndfile/scale_clip_test",
+      "runtimeFiles": []
+    },
+    "sndfile-to-text-Debug-armeabi-v7a": {
+      "artifactName": "sndfile-to-text",
+      "buildCommand": "/Users/zia/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a\" sndfile-to-text",
+      "abi": "armeabi-v7a",
+      "output": "/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a/sndfile/sndfile-to-text",
+      "runtimeFiles": []
+    },
+    "sndfile-metadata-set-Debug-armeabi-v7a": {
+      "artifactName": "sndfile-metadata-set",
+      "buildCommand": "/Users/zia/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a\" sndfile-metadata-set",
+      "abi": "armeabi-v7a",
+      "output": "/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a/sndfile/sndfile-metadata-set",
+      "runtimeFiles": []
+    },
+    "sndfile-Debug-armeabi-v7a": {
+      "artifactName": "sndfile",
+      "buildCommand": "/Users/zia/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a\" sndfile",
+      "abi": "armeabi-v7a",
+      "output": "/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a/sndfile/libsndfile.a",
+      "runtimeFiles": []
+    },
+    "floating_point_test-Debug-armeabi-v7a": {
+      "artifactName": "floating_point_test",
+      "buildCommand": "/Users/zia/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a\" floating_point_test",
+      "abi": "armeabi-v7a",
+      "output": "/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a/sndfile/floating_point_test",
+      "runtimeFiles": []
+    },
+    "channel_test-Debug-armeabi-v7a": {
+      "artifactName": "channel_test",
+      "buildCommand": "/Users/zia/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a\" channel_test",
+      "abi": "armeabi-v7a",
+      "output": "/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a/sndfile/channel_test",
+      "runtimeFiles": []
+    },
+    "command_test-Debug-armeabi-v7a": {
+      "artifactName": "command_test",
+      "buildCommand": "/Users/zia/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a\" command_test",
+      "abi": "armeabi-v7a",
+      "output": "/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a/sndfile/command_test",
+      "runtimeFiles": []
+    },
+    "stdin_test-Debug-armeabi-v7a": {
+      "artifactName": "stdin_test",
+      "buildCommand": "/Users/zia/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a\" stdin_test",
+      "abi": "armeabi-v7a",
+      "output": "/Users/zia/Desktop/0720/oboe_recorder/app/.cxx/cmake/debug/armeabi-v7a/sndfile/tests/stdin_test",
+      "runtimeFiles": []
+    }
+  }
+}

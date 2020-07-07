@@ -1,0 +1,153 @@
+Check for working C compiler: /Users/zia/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang
+Check for working C compiler: /Users/zia/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang -- works
+Detecting C compiler ABI info
+Detecting C compiler ABI info - done
+Detecting C compile features
+Detecting C compile features - done
+Check for working CXX compiler: /Users/zia/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++
+Check for working CXX compiler: /Users/zia/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ -- works
+Detecting CXX compiler ABI info
+Detecting CXX compiler ABI info - done
+Detecting CXX compile features
+Detecting CXX compile features - done
+Checking large files support...
+Looking for sys/types.h
+Looking for sys/types.h - found
+Looking for stdint.h
+Looking for stdint.h - found
+Looking for stddef.h
+Looking for stddef.h - found
+Checking size of off_t without any definitions:
+Check size of off_t
+Check size of off_t - done
+Checking of off_t without any definitions: 4
+Checking size of off_t with _FILE_OFFSET_BITS=64:
+Check size of off_t
+Check size of off_t - done
+Checking size of off_t with _FILE_OFFSET_BITS=64: 8
+Result of checking large files support: supported
+Could NOT find ALSA (missing: ALSA_LIBRARY ALSA_INCLUDE_DIR) 
+Could NOT find Sndio (missing: SNDIO_LIBRARY SNDIO_INCLUDE_DIR) 
+Could NOT find VorbisEnc (missing: VORBISENC_LIBRARY VORBISENC_INCLUDE_DIR VORBIS_FOUND) 
+Could NOT find FLAC (missing: FLAC_LIBRARY FLAC_INCLUDE_DIR OGG_FOUND) 
+Could NOT find Opus (missing: OPUS_LIBRARY OPUS_INCLUDE_DIR OGG_FOUND) 
+Could NOT find Speex (missing: SPEEX_LIBRARY SPEEX_INCLUDE_DIR) 
+Could NOT find SQLITE3 (missing: SQLITE3_LIBRARY SQLITE3_INCLUDE_DIR) 
+Looking for byteswap.h
+Looking for byteswap.h - found
+Looking for dlfcn.h
+Looking for dlfcn.h - found
+Looking for direct.h
+Looking for direct.h - not found
+Looking for endian.h
+Looking for endian.h - found
+Looking for inttypes.h
+Looking for inttypes.h - found
+Looking for io.h
+Looking for io.h - not found
+Looking for sys/time.h
+Looking for sys/time.h - found
+Looking for unistd.h
+Looking for unistd.h - found
+Looking for locale.h
+Looking for locale.h - found
+Looking for sys/wait.h
+Looking for sys/wait.h - found
+Check size of int64_t
+Check size of int64_t - done
+Check size of long
+Check size of long - done
+Check size of long long
+Check size of long long - done
+Check size of ssize_t
+Check size of ssize_t - done
+Check size of wchar_t
+Check size of wchar_t - done
+Check size of int64_t
+Check size of int64_t - done
+Looking for floor in m
+Looking for floor in m - found
+Looking for sqlite3_close in sqlite3
+Looking for sqlite3_close in sqlite3 - not found
+Looking for fstat
+Looking for fstat - found
+Looking for fstat64
+Looking for fstat64 - not found
+Looking for gettimeofday
+Looking for gettimeofday - found
+Looking for gmtime
+Looking for gmtime - found
+Looking for gmtime_r
+Looking for gmtime_r - found
+Looking for localtime
+Looking for localtime - found
+Looking for localtime_r
+Looking for localtime_r - found
+Looking for lseek
+Looking for lseek - found
+Looking for open
+Looking for open - found
+Looking for read
+Looking for read - found
+Looking for write
+Looking for write - found
+Looking for lrint
+Looking for lrint - found
+Looking for lrintf
+Looking for lrintf - found
+Looking for ftruncate
+Looking for ftruncate - found
+Looking for fsync
+Looking for fsync - found
+Looking for pipe
+Looking for pipe - found
+Looking for setlocale
+Looking for setlocale - found
+Looking for waitpid
+Looking for waitpid - found
+Looking for S_IRGRP
+Looking for S_IRGRP - found
+Check if the system is big endian
+Searching 16 bit integer
+Check size of unsigned short
+Check size of unsigned short - done
+Using unsigned short
+Check if the system is big endian - little endian
+Checking for inline...
+Checking for inline... supported
+Checking processor clipping capabilities...
+Checking processor clipping capabilities... disabled
+The following features have been enabled:
+
+ * BUILD_TESTING, build tests
+ * ENABLE_CPACK, enable CPack support
+ * ENABLE_PACKAGE_CONFIG, generate and install package config file
+
+-- The following features have been disabled:
+
+ * BUILD_SHARED_LIBS, build shared libraries
+ * ENABLE_EXTERNAL_LIBS, enable FLAC, Vorbis, and Opus codecs
+ * ENABLE_EXPERIMENTAL, enable experimental code
+ * BUILD_REGTEST, build regtest
+ * ENABLE_CPU_CLIP, Enable tricky cpu specific clipper
+ * ENABLE_BOW_DOCS, enable black-on-white html docs
+
+-- The following OPTIONAL packages have not been found:
+
+ * ALSA
+ * Sndio
+ * Speex, an audio codec tuned for speech, <www.speex.org/>
+   Enables experemental Speex support
+ * SQLite3, light weight SQL database engine., <www.sqlite.org/>
+   Enables regtest
+
+-- The following RECOMMENDED packages have not been found:
+
+ * VorbisEnc, open source lossy audio codec, <www.vorbis.com/>
+   Enables Vorbis support
+ * FLAC, Free Lossless Audio Codec Library, <www.xiph.org/flac/>
+   Enables FLAC support
+ * Opus, Standardized open source low-latency fullband codec, <www.opus-codec.org/>
+   Enables experimental Opus support
+
+Configuring done
