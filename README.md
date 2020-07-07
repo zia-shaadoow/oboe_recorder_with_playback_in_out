@@ -1,3 +1,3 @@
 # oboe_recorder_with_playback_in_out
  
-![Home Page](homepage.jpg)
+![Home Page](homepage.jpg 100x200 %)
